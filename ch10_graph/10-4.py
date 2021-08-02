@@ -5,44 +5,42 @@
 # 문제 : 커리큘럼
 
 # 풀이 :
-
+위상정렬 이용
 '''
 
-def find_parent(parent, x):
-    if parent[x] != x:
-        parent[x] = find_parent(parent, parent[x])
-    return parent[x]
+from collections import deque
+import copy
 
-def union_parent(parent, a, b):
-    a = find_parent(parent, a)
-    b = find_parent(parent, b)
-    if a < b:
-        parent[b] = a
-    else:
-        parent[a] = b
-
-n, m = map(int, input().split())
+n = int(input())
 parent = [0] * (n + 1)
-
-edges = []
-result = 0
+graph = [[] for i in range(n + 1)]
+time = [0] * (n + 1)
 
 for i in range(1, n + 1):
-    parent[i] = i
+    data = list(map(int, input().split()))
+    time[i] = data[0]
+    for x in data[1:-1]:
+        parent[i] += 1
+        graph[x].append(i)
 
-for _ in range(m):
-    a, b, cost = map(int, input().split())
-    edges.append((cost, a, b))
+def topology_sort():
+    result = copy.deepcopy(time)
+    q = deque()
 
-edges.sort()
-last = 0
+    for i in range(1, n + 1):
+        if parent[i] == 0:
+            q.append(i)
 
-for edge in edges:
-    cost, a, b = edge
+    while q:
+        now = q.popleft()
+        for i in graph[now]:
+            result[i] = max(result[i], result[now] + time[i])
+            parent[i] -= 1
+            if parent[i] == 0:
+                q.append(i)
 
-    if find_parent(parent, a) != find_parent(parent, b):
-        union_parent(parent, a, b)
-        result += cost
-        last = cost
+    for i in range(1, n + 1):
+        print(result[i])
 
-print(result)
+topology_sort()
+
