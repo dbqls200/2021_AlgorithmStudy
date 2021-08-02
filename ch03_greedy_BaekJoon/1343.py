@@ -1,4 +1,4 @@
-# chapter3 - degree
+# chapter3 - greedy
 # 1343번 - 폴리오미노
 
 words = input()
