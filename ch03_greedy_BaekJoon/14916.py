@@ -1,4 +1,4 @@
-# chapter3 - degree
+# chapter3 - greedy
 # 14916번 - 거스름돈
 
 n = int(input())
