@@ -1,4 +1,4 @@
-# chapter3 - degree
+# chapter3 - greedy
 # 13305번 - 주유소
 
 n = int(input())
