@@ -9,11 +9,13 @@ n = int(input())
 loss = list(map(int, input().split()))
 loss.sort(reverse=True)
 result = loss[0]
-
-for i in range(1, n):
-    if n % 2 == 0:
-        result = max(result, loss[i - 1] + loss[(-1) * i])
-    else:
-        result = max(result, loss[i] + loss[(-1) * i])
         
+
+if n % 2 == 0:
+    for i in range(1, n):
+        result = max(result, loss[i - 1] + loss[-i])
+else:
+    for i in range(1, n):
+        result = max(result, loss[i] + loss[-i])
+
 print(result)
