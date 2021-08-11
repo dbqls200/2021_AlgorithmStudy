@@ -17,7 +17,8 @@ def dfs(graph, start):
         if node not in visit:
             visit.append(node)
             stack.extend(sorted(graph[node], reverse=True))
-
+            # LIFO, 역정렬해서 넣어줘야 작은 수부터 나옴
+            
     return visit
 
 def bfs(graph, start):
@@ -29,6 +30,7 @@ def bfs(graph, start):
         if node not in visit:
             visit.append(node)
             queue.extend(sorted(graph[node]))
+            # FIFO, 정렬해서 넣어줘야 작은 수부터 나옴
             
     return visit
 
