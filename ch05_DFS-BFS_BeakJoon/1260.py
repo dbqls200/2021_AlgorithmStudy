@@ -16,8 +16,7 @@ def dfs(graph, start):
         node = stack.pop()
         if node not in visit:
             visit.append(node)
-            s = list(graph[node])
-            stack.extend(reversed(s))
+            stack.extend(sorted(graph[node], reverse=True))
 
     return visit
 
@@ -29,7 +28,7 @@ def bfs(graph, start):
         node = queue.popleft()
         if node not in visit:
             visit.append(node)
-            queue.extend(graph[node])
+            queue.extend(sorted(graph[node]))
             
     return visit
 
