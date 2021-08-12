@@ -12,7 +12,7 @@
 ### 그리디
 
 |번호|        추천 문제      |                               문제 번호                                  |                                          문제 이름                                 |                                       난이도                                     | 문제풀기 |
-| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/14916" target="_blank">14916</a> | <a href="https://www.acmicpc.net/problem/14916" target="_blank">거스름돈</a>      | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> |   ✅   |      
 | 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1343" target="_blank">1343</a>   | <a href="https://www.acmicpc.net/problem/1343" target="_blank">폴리오미노</a>     | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> |   ✅   |      
 | 03 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2217" target="_blank">2217</a>   | <a href="https://www.acmicpc.net/problem/2217" target="_blank">로프</a>           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> |   ✅   |      
