@@ -1,5 +1,6 @@
 # chapter5 - DFS/BFS
 # 11725번 - 트리의 부모 찾기
+# 이중리스트
 
 from collections import deque
 from sys import stdin
@@ -17,7 +18,6 @@ def bfs(graph, start, visited, parent):
                 parent[i] = v
                 queue.append(i)
                 visited[i] = True
-
 
 
     
