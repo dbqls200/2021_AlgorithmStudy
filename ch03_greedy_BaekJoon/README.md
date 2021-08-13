@@ -2,7 +2,7 @@
 ### 그리디(GREEDY)
 
 |번호|        추천 문제      |                               문제 번호                                  |                                          문제 이름                                 |                                       난이도                                     | 문제 풀기|    한줄평 |
-| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/14916" target="_blank">14916</a> | <a href="https://www.acmicpc.net/problem/14916" target="_blank">거스름돈</a>      | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> |  ✅  |거스름돈은 껌이지. 젤 큰 돈부터 거슬러 주기|
 | 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1343" target="_blank">1343</a>   | <a href="https://www.acmicpc.net/problem/1343" target="_blank">폴리오미노</a>     | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> |  ✅  |그냥 문제 이름부터 마음에 안듦. 젤 많은 A부터 바꾸기|
 | 03 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2217" target="_blank">2217</a>   | <a href="https://www.acmicpc.net/problem/2217" target="_blank">로프</a>           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/>    |  ✅  |문제 이해부터 어려움 ㅋㅋ 문제 해석에 도움 주신 유찬 감사|
