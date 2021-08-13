@@ -44,20 +44,56 @@
 ---
 ### 구현
 
+
 ---
 ### DFS/BFS
+
+|번호|        추천 문제         |        문제 번호         |        문제 이름         |         난이도          |        문제 풀기         |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2606" target="_blank">2606</a> | <a href="https://www.acmicpc.net/problem/2606" target="_blank">바이러스</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |  ✅   |
+| 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1260" target="_blank">1260</a> | <a href="https://www.acmicpc.net/problem/1260" target="_blank">DFS와 BFS</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |✅ |
+| 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/11725" target="_blank">11725</a> | <a href="https://www.acmicpc.net/problem/11725" target="_blank">트리의 부모 찾기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | ✅ |
+| 03 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1325" target="_blank">1325</a> | <a href="https://www.acmicpc.net/problem/1325" target="_blank">효율적인 해킹</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | ✅ |
+| 04 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2178" target="_blank">2178</a> | <a href="https://www.acmicpc.net/problem/2178" target="_blank">미로 탐색</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |  | 
+| 05 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2667" target="_blank">2667</a> | <a href="https://www.acmicpc.net/problem/2667" target="_blank">단지번호붙이기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>   ||
+| 06 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/7576" target="_blank">7576</a> | <a href="https://www.acmicpc.net/problem/7576" target="_blank">토마토</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | |
+| 07 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/7569" target="_blank">7569</a> | <a href="https://www.acmicpc.net/problem/7569" target="_blank">토마토</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> ||
+| 08 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/16918" target="_blank">16918</a> | <a href="https://www.acmicpc.net/problem/16918" target="_blank">봄버맨</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> ||
+| 09 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/5547" target="_blank">5547</a> | <a href="https://www.acmicpc.net/problem/5547" target="_blank">일루미네이션</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> ||
+| 10 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/14502" target="_blank">14502</a> | <a href="https://www.acmicpc.net/problem/14502" target="_blank">연구소</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> ||
+| 11 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/16234" target="_blank">16234</a> | <a href="https://www.acmicpc.net/problem/16234" target="_blank">인구 이동</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>  ||
+| 12 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2636" target="_blank">2636</a> | <a href="https://www.acmicpc.net/problem/2636" target="_blank">치즈</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | |
+| 13 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/13549" target="_blank">13549</a> | <a href="https://www.acmicpc.net/problem/13549" target="_blank">숨바꼭질 3</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>  ||
+| 14 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/16954" target="_blank">16954</a> | <a href="https://www.acmicpc.net/problem/16954" target="_blank">움직이는 미로 탈출</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |                      |
+| 15 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/17836" target="_blank">17836</a> | <a href="https://www.acmicpc.net/problem/17836" target="_blank">공주님을 구해라!</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |                      |
+| 16 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/16973" target="_blank">16973</a> | <a href="https://www.acmicpc.net/problem/16973" target="_blank">직사각형 탈출</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |                      |
+| 17 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/14940" target="_blank">14940</a> | <a href="https://www.acmicpc.net/problem/14940" target="_blank">쉬운 최단거리</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |                      |
+| 18 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/18513" target="_blank">18513</a> | <a href="https://www.acmicpc.net/problem/18513" target="_blank">샘터</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | 
+| 19 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2668" target="_blank">2668</a> | <a href="https://www.acmicpc.net/problem/2668" target="_blank">숫자고르기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |                      |
+| 20 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/13023" target="_blank">13023</a> | <a href="https://www.acmicpc.net/problem/13023" target="_blank">ABCDE</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |                      |
+| 21 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1600" target="_blank">1600</a> | <a href="https://www.acmicpc.net/problem/1600" target="_blank">말이 되고픈 원숭이</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |                      |
+| 22 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2206" target="_blank">2206</a> | <a href="https://www.acmicpc.net/problem/2206" target="_blank">벽 부수고 이동하기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | |
+| 23 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2573" target="_blank">2573</a> | <a href="https://www.acmicpc.net/problem/2573" target="_blank">빙산</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |                      |
+| 24 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/4179" target="_blank">4179</a> | <a href="https://www.acmicpc.net/problem/4179" target="_blank">불!</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |                      |
+| 25 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/16932" target="_blank">16932</a> | <a href="https://www.acmicpc.net/problem/16932" target="_blank">모양 만들기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |                      |
+| 26 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1967" target="_blank">1967</a> | <a href="https://www.acmicpc.net/problem/1967" target="_blank">트리의 지름</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |                      |
+| 27 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/9466" target="_blank">9466</a> | <a href="https://www.acmicpc.net/problem/9466" target="_blank">텀 프로젝트</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |                      |
 
 ---
 ### 정렬
 
+
 ---
 ### 이진탐색
+
 
 ---
 ### 동적계획법
 
+
 ---
 ### 최단 경로
+
 
 ---
 ### 그래프 탐색
