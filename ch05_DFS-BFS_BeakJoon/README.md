@@ -1,4 +1,3 @@
-[백준 문제집](https://www.acmicpc.net/workbook/view/6853)
 |          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          |        문제 풀기         |       한줄평     |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2606" target="_blank">2606</a> | <a href="https://www.acmicpc.net/problem/2606" target="_blank">바이러스</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |  ✅   |친해지자 dfs/bfs들아...|
