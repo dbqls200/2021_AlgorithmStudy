@@ -95,7 +95,7 @@
 
 
 |          번호|        추천 문제         |        문제 번호         |        문제 이름         |         난이도          |       문제 풀기        | 한줄평 |
-| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/15724" target="_blank">15724</a> | <a href="https://www.acmicpc.net/problem/15724" target="_blank">주지수</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |                      ||
 | 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/9084" target="_blank">9084</a> | <a href="https://www.acmicpc.net/problem/9084" target="_blank">동전</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |                      ||
 | 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/12865" target="_blank">12865</a> | <a href="https://www.acmicpc.net/problem/12865" target="_blank">평범한 배낭</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |           |           |
